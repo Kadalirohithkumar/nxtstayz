@@ -1,0 +1,9 @@
+2023-11-28 13:22:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table hotel( hotelId INT PRIMARY KEY AUTO_INCREMENT, hotelName TEXT, location TEXT, rating INT, [*])"; expected "identifier"; SQL statement:
+create table hotel( hotelId INT PRIMARY KEY AUTO_INCREMENT, hotelName TEXT, location TEXT, rating INT, ) [42001-214]
+2023-11-28 14:18:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL" already exists; SQL statement:
+CREATE TABLE hotel ( hotelId INT PRIMARY KEY AUTO_INCREMENT, hotelName TEXT, location TEXT, rating INT ) [42101-214]
+2023-11-29 11:42:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL" already exists; SQL statement:
+CREATE TABLE hotel ( hotelId INT PRIMARY KEY AUTO_INCREMENT, hotelName TEXT, location TEXT, rating INT ) [42101-214]
